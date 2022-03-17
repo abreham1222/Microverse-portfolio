@@ -9,6 +9,7 @@ ul {
 .container {
   padding-left: 24px;
   padding-right: 24px;
+  display: flex;
 }
 
 nav {
@@ -22,6 +23,7 @@ nav {
 }
 
 .navbar-logo {
+  display: flex;
   font-size: 18px;
   line-height: 24px;
   font-weight: 700;
@@ -30,10 +32,10 @@ nav {
 }
 
 .navbar-menu {
-  padding-right: 15px;
+  padding-right: 50px;
 }
 
-header {
+.header-box {
   background-size: 256px;
   height: 600px;
   width: 100%;
@@ -46,11 +48,11 @@ header {
 
 .header-content {
   width: 327px;
-  margin: 122px 0;
-  position: relative;
+  margin: 122px 22px;
 }
 
 .header-title {
+  display: flex;
   width: 327px;
   font-family: "Crete Round", serif;
   font-style: normal;
@@ -61,6 +63,7 @@ header {
 }
 
 .header-subtitle {
+  display: flex;
   font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: 700;
