@@ -206,12 +206,11 @@ nav {
 .professional {
   display: grid;
   width: 98%;
-  height: 400px;
-  padding-top: 120px;
-  padding-bottom: 300px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   background-image: url("Images/skeloton/Img Place.png");
   background-repeat: no-repeat;
-  background-size: 93% 550px;
+  background-size: 93% 350px;
   background-position-x: center;
   margin-left: 10px;
 }
@@ -232,6 +231,7 @@ nav {
   line-height: 44px;
   color: #fff;
   margin-left: 40px;
+  margin-top: 20px;
 }
 
 .daily-selection {
@@ -256,6 +256,7 @@ nav {
   gap: 12px;
   padding-top: 40px;
   margin-left: 40px;
+  height: 10px;
 }
 
 .pro-h {
@@ -273,8 +274,10 @@ nav {
 }
 
 .see-proj {
-  margin-left: 26px;
-  margin-top: 139px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 65px;
+  align-self: center;
   width: 93%;
   height: 48px;
   background: #ff6b00;
@@ -301,6 +304,7 @@ nav {
 
 .about-me {
   width: 94%;
+  margin-top: 40px;
   padding-top: 120px;
   padding-bottom: 209px;
   background-image: url("Images/skeloton/Group.png");
