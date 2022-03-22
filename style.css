@@ -425,7 +425,7 @@ input[type="email"] {
   font-family: "Inter", serif;
   margin-top: 20px;
   width: 410px;
-  border:#979493;
+  border: #979493;
   box-sizing: border-box;
 }
 
@@ -433,7 +433,7 @@ textarea {
   margin-top: 20px;
   margin-left: 15px;
   width: 460px;
-  border:#d4cfc9;
+  border: #d4cfc9;
   box-sizing: border-box;
   font-weight: 700;
   font-size: 15px;
