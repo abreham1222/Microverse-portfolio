@@ -425,3 +425,14 @@ input[type="email"] {
   border:#979493;
   box-sizing: border-box;
 }
+textarea {
+  margin-top: 20px;
+  margin-left: 15px;
+  width: 460px;
+  border:#d4cfc9;
+  box-sizing: border-box;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 24px;
+}
+
