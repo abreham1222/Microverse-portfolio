@@ -395,3 +395,24 @@ nav {
   line-height: 44px;
   color: #fff;
 }
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 900px;
+  background-color: #fff;
+}
+
+.form-detail {
+  font-family: "Inter", serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  margin-left: 60px;
+  margin-top: 70px;
+  padding-top: 90px;
+  color: #172b4d;
+}
