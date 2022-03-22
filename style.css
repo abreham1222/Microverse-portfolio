@@ -436,3 +436,33 @@ textarea {
   line-height: 24px;
 }
 
+.get {
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 24px;
+  background: #f55800;
+  color: #fff;
+  border: 1px solid #f56b00;
+  padding: 15px 20px;
+}
+
+.get:hover {
+  transition: all 0.2s ease-in-out;
+  background: #fff5e1;
+  border: 1px solid #f55800;
+  color: #f55800;
+  cursor: pointer;
+}
+
+.icons {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+.social-media-icons {
+  padding: 15px;
+  display: flex;
+}
