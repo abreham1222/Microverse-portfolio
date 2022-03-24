@@ -26,15 +26,6 @@
 
 ## 🤝 Contributing
 
-## Authors
-
-     👤 **Roger Smit Castillo**
-
-- GitHub: [@githubhandle](https://github.com/latinogan)
-- Gmail: [@gmailhandle](https://gmail.com/roger.castillo.arce@gmail.com)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/roger-smith-a35738179)
-)
-
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
