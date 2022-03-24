@@ -882,7 +882,7 @@ textarea {
     bottom: 210px;
     left: 550px;
   }
-  
+
   input[type="text"],
   input[type="email"] {
     position: relative;
@@ -906,5 +906,4 @@ textarea {
   .icons {
     padding-bottom: 100px;
   }
-
 }
