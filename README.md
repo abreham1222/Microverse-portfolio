@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Personal Portfolio
+# Desktop version Personal Portfolio
 
-> This is a project personal portfolio.
+> This is a project for Desktop Version portfolio.
 
 
 ## Built With
