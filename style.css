@@ -586,10 +586,9 @@ textarea {
   .about-hr {
     position: relative;
     width: 794px;
-    height: 0px;
+    height: 0;
     left: 10px;
     top: 120px;
-    width: 794;
   }
 
   .image-perf {
@@ -894,7 +893,6 @@ textarea {
     font-size: 43px;
     line-height: 52px;
     text-align: left;
-    
   }
 
   .ip-type {
