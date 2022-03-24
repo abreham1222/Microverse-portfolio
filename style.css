@@ -76,7 +76,6 @@ nav {
   background-image: url("./Images/header-illustration.png");
 }
 
-
 .header-content {
   width: 327px;
   margin: 122px 22px;
@@ -533,6 +532,7 @@ textarea {
     width: 400px;
     margin-left: 80px;
   }
+
   .header-subtitle {
     font-size: 32px;
     line-height: 44px;
@@ -540,6 +540,7 @@ textarea {
     width: 566px;
     margin-left: 80px;
   }
+
   .header-text-description {
     font-size: 1.3rem;
     line-height: 32px;
@@ -575,21 +576,20 @@ textarea {
     justify-content: left;
     margin-top: 100px;
   }
-  
+
   .image-perf {
     display: grid;
     padding: 25px 80px;
   }
-  
+
   .image-pla {
     position: relative;
     width: 684px;
     height: 448px;
     left: 45px;
-    top: 0px;
-  
+    top: 0;
   }
-  
+
   .mult {
     font-family: "Crete Round", serif;
     font-style: normal;
@@ -604,10 +604,10 @@ textarea {
     height: 48px;
     left: 790px;
     bottom: 480px;
-    margin: 24px 0px;
+    margin: 24px 0;
     color: #091e42;
   }
-  
+
   .recent-tail {
     position: relative;
     width: 448px;
@@ -618,9 +618,9 @@ textarea {
     font-size: 20px;
     line-height: 24px;
     color: #091e42;
-    margin: 24px 0px;
+    margin: 24px 0;
   }
-  
+
   .cours {
     display: flex;
     flex-wrap: wrap;
@@ -630,7 +630,7 @@ textarea {
     left: 790px;
     gap: 12px;
   }
-  
+
   .listed {
     border: 1px solid #8993a4;
     padding: 10px;
@@ -642,7 +642,7 @@ textarea {
     font-style: normal;
     font-weight: 500;
   }
-  
+
   .proje {
     position: relative;
     bottom: 490px;
@@ -660,15 +660,14 @@ textarea {
     line-height: 24px;
     border: none;
   }
-  
+
   .proje:hover {
     transition: all 0.2s ease-in-out;
     background: #fff5e1;
     border: 1px solid #f55800;
     color: #f55800;
   }
-  
-  
+
   .p {
     display: grid;
     justify-content: center;
@@ -677,6 +676,7 @@ textarea {
     padding: 10px;
     gap: 15px;
   }
+
   .professionall {
     position: relative;
     bottom: 350px;
@@ -687,9 +687,8 @@ textarea {
     background-image: url("Images/imgplaceholder.png");
     background-repeat: no-repeat;
     background-position-x: center;
-    
   }
-  
+
   .profession {
     position: relative;
     bottom: 350px;
@@ -700,9 +699,8 @@ textarea {
     background-image: url("Images/placeholder.png");
     background-repeat: no-repeat;
     background-position-x: center;
-    
   }
-  
+
   .profess {
     position: relative;
     bottom: 350px;
@@ -713,9 +711,8 @@ textarea {
     background-image: url("Images/iplaceholder.png");
     background-repeat: no-repeat;
     background-position-x: center;
-  
   }
-  
+
   .professiona {
     position: relative;
     bottom: 350px;
@@ -726,14 +723,13 @@ textarea {
     background-image: url("Images/dark.png");
     background-repeat: no-repeat;
     background-position-x: center;
-    
   }
-  
+
   .pro {
     display: grid;
     width: 98%;
   }
-  
+
   .art {
     display: grid;
     font-family: "Crete Round", serif;
@@ -747,7 +743,7 @@ textarea {
     margin-left: 20px;
     margin-top: 200px;
   }
-  
+
   .selection {
     display: grid;
     justify-content: center;
@@ -761,7 +757,7 @@ textarea {
     line-height: 24px;
     color: #fff;
   }
-  
+
   .tag {
     display: flex;
     flex-wrap: wrap;
@@ -771,7 +767,7 @@ textarea {
     margin-left: 20px;
     height: 10px;
   }
-  
+
   .pro-lis {
     border: 1px solid #8993a4;
     padding: 10px;
@@ -785,7 +781,7 @@ textarea {
     color: #fff;
     background: rgba(255, 255, 255, 0.24);
   }
-  
+
   .c-proj {
     margin-left: auto;
     margin-right: auto;
@@ -802,18 +798,18 @@ textarea {
     border: none;
     cursor: pointer;
   }
-  
+
   .c-proj:hover {
     transition: all 0.2s ease-in-out;
     background: #fff5e1;
     border: 1px solid #f55800;
     color: #f55800;
   }
-  
+
   .about {
     background: #1c1a19;
   }
-  
+
   .about-me {
     width: 100%;
     padding-top: 120px;
@@ -824,10 +820,9 @@ textarea {
     background-position: top 30% right;
     margin-left: 20px;
   }
-  
+
   .about-head {
     width: 566px;
-    height: 78px;
     margin-left: 40px;
     height: 79px;
     font-size: 72px;
@@ -835,7 +830,7 @@ textarea {
     letter-spacing: 0.33px;
     color: #ff6b00;
   }
-  
+
   .hello {
     font-family: "Inter", serif;
     font-style: normal;
@@ -847,49 +842,45 @@ textarea {
     line-height: 24px;
     color: #f4f5f7;
   }
-  
+
   .about-separater {
     border: 1px solid #fff;
     margin-bottom: 100px;
     width: 1156px;
   }
-  
+
   .tech1 {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
   }
-  
+
   .technologies {
     text-align: left;
     list-style: none;
     width: 100%;
-    
   }
-
 
   form {
     display: flex;
     flex-direction: column;
-    align-items: left;
     width: 100%;
     background-color: #fff;
   }
-  
+
   .form-detail {
     width: 455px;
     height: 255px;
     position: relative;
     right: 400px;
   }
-  
+
   .ip-type {
     display: flex;
     flex-direction: column;
     position: relative;
     bottom: 210px;
     left: 550px;
-  
   }
   
   input[type="text"],
@@ -899,14 +890,14 @@ textarea {
     margin-top: 20px;
     width: 295px;
   }
-  
+
   textarea {
     position: relative;
     width: 684px;
-    height: 119x;
+    height: 119px;
     right: 315px;
   }
-  
+
   .get {
     position: relative;
     right: 300px;
@@ -915,5 +906,5 @@ textarea {
   .icons {
     padding-bottom: 100px;
   }
-  
+
 }
