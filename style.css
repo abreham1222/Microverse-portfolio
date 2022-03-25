@@ -496,6 +496,13 @@ textarea {
   cursor: pointer;
 }
 
+.for-li {
+  display: flex;
+  border: 1px solid rgb(199, 191, 191);
+  position: relative;
+  top: 1500px;
+}
+
 .icons {
   display: flex;
   flex-direction: row;
@@ -522,7 +529,7 @@ textarea {
 
   .header-box {
     height: 100vh;
-    background-position: bottom -30px right 0;
+    background-position: top  right;
     background-size: 550px;
   }
 
@@ -571,23 +578,21 @@ textarea {
   }
 
   .work {
-    font-family: "Crete Round", serif;
-    font-style: normal;
-    font-weight: 400;
     font-size: 40px;
     line-height: 52px;
     display: flex;
     position: relative;
-    left: 40px;
+    left: 30px;
     justify-content: left;
     margin-top: 100px;
   }
 
   .about-hr {
     position: relative;
-    width: 794px;
+    width: 800px;
+    border: 1px solid #bdb7b7;
     height: 0;
-    left: 10px;
+    left: 35px;
     top: 120px;
   }
 
@@ -600,14 +605,11 @@ textarea {
     position: relative;
     width: 684px;
     height: 448px;
-    left: 45px;
+    left: 35px;
     top: 0;
   }
 
   .mult {
-    font-family: "Crete Round", serif;
-    font-style: normal;
-    font-weight: 400;
     font-size: 40px;
     line-height: 44px;
     display: flex;
@@ -616,21 +618,21 @@ textarea {
     position: relative;
     width: 448px;
     height: 48px;
-    left: 790px;
+    left: 740px;
     bottom: 480px;
     margin: 24px 0;
     color: #091e42;
   }
 
   .recent-tail {
+    width: calc(100% - 833px);
     position: relative;
-    width: 448px;
     height: 140px;
-    left: 790px;
+    left: 740px;
     bottom: 480px;
     font-weight: 400;
     font-size: 20px;
-    line-height: 24px;
+    line-height: 28px;
     color: #091e42;
     margin: 24px 0;
   }
@@ -640,8 +642,8 @@ textarea {
     flex-wrap: wrap;
     justify-content: flex-start;
     position: relative;
-    bottom: 490px;
-    left: 790px;
+    bottom: 460px;
+    left: 740px;
     gap: 12px;
   }
 
@@ -659,17 +661,14 @@ textarea {
 
   .proje {
     position: relative;
-    bottom: 490px;
-    left: 790px;
+    bottom: 460px;
+    left: 740px;
     padding: 12px;
     width: 124px;
     height: 48px;
     margin-top: 15px;
     background: #ff6b00;
     color: #fff;
-    font-family: "Inter", serif;
-    font-style: normal;
-    font-weight: 700;
     font-size: 17px;
     line-height: 24px;
     border: none;
@@ -686,17 +685,17 @@ textarea {
     display: grid;
     justify-content: center;
     align-items: center;
-    grid-template-columns: 369px 369px 369px;
+    grid-template-columns: 350px 350px 350px;
     padding: 10px;
     gap: 15px;
   }
 
   .professionall {
     position: relative;
-    bottom: 350px;
-    left: 10px;
+    bottom: 340px;
+    left: 5px;
     display: grid;
-    width: 369px;
+    width: 350px;
     height: 435px;
     background-image: url("Images/imgplaceholder.png");
     background-repeat: no-repeat;
@@ -705,10 +704,10 @@ textarea {
 
   .profession {
     position: relative;
-    bottom: 350px;
-    left: 10px;
+    bottom: 340px;
+    left: 5px;
     display: grid;
-    width: 369px;
+    width: 350px;
     height: 435px;
     background-image: url("Images/placeholder.png");
     background-repeat: no-repeat;
@@ -717,10 +716,10 @@ textarea {
 
   .profess {
     position: relative;
-    bottom: 350px;
-    left: 10px;
+    bottom: 340px;
+    left: 5px;
     display: grid;
-    width: 369px;
+    width: 340px;
     height: 435px;
     background-image: url("Images/iplaceholder.png");
     background-repeat: no-repeat;
@@ -729,10 +728,10 @@ textarea {
 
   .professiona {
     position: relative;
-    bottom: 350px;
-    left: 10px;
+    bottom: 340px;
+    left: 5px;
     display: grid;
-    width: 369px;
+    width: 350px;
     height: 435px;
     background-image: url("Images/dark.png");
     background-repeat: no-repeat;
@@ -846,8 +845,6 @@ textarea {
   }
 
   .hello {
-    font-family: "Inter", serif;
-    font-style: normal;
     width: 566px;
     height: 148px;
     margin-left: 40px;
@@ -886,10 +883,10 @@ textarea {
   }
 
   .form-detail {
-    width: 455px;
+    width: calc(100% - 855px);
     height: 256px;
     position: relative;
-    right: 400px;
+    right: 350px;
     font-size: 43px;
     line-height: 52px;
     text-align: left;
@@ -906,7 +903,7 @@ textarea {
   input[type="text"],
   input[type="email"] {
     position: relative;
-    right: 330px;
+    right: 250px;
     margin-top: 20px;
     width: 295px;
   }
@@ -914,13 +911,17 @@ textarea {
   textarea {
     position: relative;
     width: 684px;
-    height: 119px;
-    right: 315px;
+    height: 115px;
+    right: 250px;
   }
 
   .get {
     position: relative;
-    right: 400px;
+    right: 335px;
+  }
+  
+  .for-li {
+    display: none;
   }
 
   .icons {
