@@ -597,6 +597,7 @@ textarea {
   }
 
   .image-perf {
+    min-width: 768px;
     display: grid;
     padding: 25px 80px;
   }
@@ -625,7 +626,7 @@ textarea {
   }
 
   .recent-tail {
-    width: calc(100% - 833px);
+    width: calc(100% - 733px);
     position: relative;
     height: 140px;
     left: 740px;
