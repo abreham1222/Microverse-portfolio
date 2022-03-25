@@ -529,7 +529,7 @@ textarea {
 
   .header-box {
     height: 100vh;
-    background-position: top  right;
+    background-position: top  right 0;
     background-size: 550px;
   }
 
