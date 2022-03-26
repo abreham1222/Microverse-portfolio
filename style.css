@@ -1005,13 +1005,14 @@ textarea {
   }
 
   .form-detail {
-    width: calc(100% - 855px);
+    width: calc(100% - 1070px);
     height: 256px;
     position: relative;
     right: 350px;
-    font-size: 43px;
+    font-size: 30px;
     line-height: 52px;
     text-align: left;
+    margin: 24px 0;
   }
 
   .ip-type {
@@ -1028,6 +1029,8 @@ textarea {
     right: 250px;
     margin-top: 20px;
     width: 295px;
+    color: #979493;
+    border-bottom: 1px solid #b1adac;
   }
 
   textarea {
@@ -1035,11 +1038,21 @@ textarea {
     width: 684px;
     height: 115px;
     right: 250px;
+    background: #fbf8f7;
   }
 
   .get {
     position: relative;
     right: 335px;
+  }
+
+  .butt {
+    position: relative;
+    bottom: 50px;
+    display: flex;
+    color: red;
+    width: 100%;
+    margin-bottom: 100px;
   }
 
   .for-li {
