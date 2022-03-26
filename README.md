@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Personal Portfolio
+# Desktop version Personal Portfolio Animation
 
-> This is a project personal portfolio.
+> This is a project for Desktop Version portfolio.
 
 
 ## Built With
@@ -13,7 +13,7 @@
 
 ## Getting Started
 
-**Just clone the project by runing the `git clone git@github.com:abreham1222/Personal-portfolio.git` command in your command line, and you are done.**
+**Just clone the project by runing the `git clone https://github.com/abreham1222/Microverse-portfolio.git` command in your command line, and you are done.**
 
 
 ## Authors
@@ -26,15 +26,10 @@
 
 ## 🤝 Contributing
 
-## Authors
-
-     👤 **Roger Smit Castillo**
-
-- GitHub: [@githubhandle](https://github.com/latinogan)
-- Gmail: [@gmailhandle](https://gmail.com/roger.castillo.arce@gmail.com)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/roger-smith-a35738179)
-)
-
+ **Roger Smit Castillo**
+GitHub: [@githubhandle](https://github.com/latinogan)
+Twitter: [@twitterhandle]
+LinkedIn: [LinkedIn](https://linkedin.com/in/oger-smith-a35738179)
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
