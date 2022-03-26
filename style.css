@@ -780,6 +780,8 @@ textarea {
     line-height: 81px;
     width: 400px;
     margin-left: 80px;
+    animation-name: title-animation;
+    animation-duration: 4s;
   }
 
   @keyframes title-animation {
