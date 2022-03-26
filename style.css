@@ -330,6 +330,10 @@ nav {
   color: #f55800;
 }
 
+.all-in {
+  display: none;
+}
+
 .myresent h2 {
   display: flex;
   flex-direction: column;
@@ -725,9 +729,9 @@ textarea {
 
 .for-li {
   display: flex;
-  border: 1px solid rgb(199, 191, 191);
+  border: 1px solid rgb(158, 154, 154);
   position: relative;
-  top: 1550px;
+  top: 1510px;
 }
 
 .icons {
@@ -742,6 +746,11 @@ textarea {
 }
 
 @media (min-width: 768px) {
+  body {
+    box-sizing: border-box;
+    width: 100%;
+    overflow-x: hidden;
+  }
   .container {
     padding: 0 90px;
   }
@@ -796,6 +805,10 @@ textarea {
 
   .recent-container {
     display: none;
+  }
+  
+  .all-in {
+    display: grid;
   }
 
   .myresent h2 {
