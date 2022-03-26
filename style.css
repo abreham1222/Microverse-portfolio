@@ -751,6 +751,7 @@ textarea {
     width: 100%;
     overflow-x: hidden;
   }
+
   .container {
     padding: 0 90px;
   }
@@ -806,7 +807,7 @@ textarea {
   .recent-container {
     display: none;
   }
-  
+
   .all-in {
     display: grid;
   }
