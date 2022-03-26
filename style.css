@@ -782,6 +782,15 @@ textarea {
     margin-left: 80px;
   }
 
+  @keyframes title-animation {
+    from {
+      margin-left: -200px;
+    }
+    to {
+      margin-left: 80;
+    }
+  }
+
   .header-subtitle {
     font-size: 32px;
     line-height: 44px;
