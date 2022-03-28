@@ -3,7 +3,6 @@
 # Desktop version Personal Portfolio and deploy to online
 
 > This is a project for Desktop Version portfolio that deploy on online using github pages.
-> portfolio website link: https://abreham1222.github.io/Microverse-portfolio/
 
 
 ## Built With
