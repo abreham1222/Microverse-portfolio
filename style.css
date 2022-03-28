@@ -1,6 +1,7 @@
 html,
 body {
   box-sizing: border-box;
+  overflow-x: hidden;
   margin: 0;
   padding: 0;
   height: 100%;
@@ -13,7 +14,8 @@ ul {
   padding: 0;
 }
 
-.container {
+.contain {
+  width: 100%;
   padding-left: 0;
   padding-right: 0;
   display: flex;
@@ -61,7 +63,8 @@ nav {
 
 .navbar-desk {
   display: none;
-  padding-right: 200px;
+  padding-right: 100px;
+  
 }
 
 .header-box {
@@ -124,11 +127,6 @@ nav {
   display: flex;
   justify-content: center;
   align-items: flex-start;
-}
-
-.image-correction {
-  margin-top: 15px;
-  padding: 0 10px;
 }
 
 .recent-container {
@@ -372,43 +370,11 @@ nav {
 }
 
 .box1 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.multi {
-  width: 325px;
-  height: 36px;
-  margin: 0;
-  font-family: "Crete Round", serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 32px;
-  color: #091e42;
-  line-height: 44px;
-  margin-left: 30px;
-}
-
-.daily {
-  width: 327px;
-  padding-left: 30px;
-  height: 147px;
-  font-family: "Inter", sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 24px;
-  color: #091e42;
+  display: grid;
 }
 
 .botones4 {
   width: 80px;
-  height: 40px;
-}
-
-footer ul {
-  list-style: none;
 }
 
 .botones4 ul {
@@ -418,7 +384,7 @@ footer ul {
   font-size: 0;
   align-items: center;
   width: 49px;
-  margin-left: 130px;
+  margin-left: 190px;
 }
 
 .botones4 button {
@@ -434,7 +400,7 @@ footer ul {
 }
 
 .see:hover {
-  background-color: rgb(255, 140, 0);
+  background-color: rgb(34, 189, 228);
 }
 
 .proyect button {
@@ -447,20 +413,7 @@ footer ul {
   color: #fff;
   margin-top: 20px;
   align-items: center;
-  margin-left: 20px;
-}
-
-.dashbord {
-  width: 295px;
-  height: 81px;
-  padding-top: 50px;
-  padding-left: 20px;
-  font-family: "Crete Round", serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 32px;
-  line-height: 44px;
-  color: #fff;
+  margin-left: 90px;
 }
 
 .dashbord2 {
@@ -474,6 +427,7 @@ footer ul {
   font-size: 32px;
   line-height: 44px;
   color: #fff;
+  margin-top: 130px;
 }
 
 .dashbord1 {
@@ -487,18 +441,6 @@ footer ul {
   font-size: 32px;
   line-height: 44px;
   color: #fff;
-}
-
-.texto1 {
-  width: 295px;
-  height: 87px;
-  font-family: "Inter", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  color: #fff;
-  padding-left: 20px;
 }
 
 .texto3 {
@@ -531,35 +473,7 @@ footer ul {
   height: 40px;
   list-style: none;
   display: flex;
-  padding: 10px 12px 0 20px;
-}
-
-.botones3 li :hover {
-  background-color: rgb(231, 198, 130);
-}
-
-.brian button {
-  width: 327px;
-  height: 60px;
-  margin-top: 15px;
-  font-family: "Inter", sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  background-color: #ff6b00;
-  font-size: 17px;
-  color: #fff;
-}
-
-.brian1 button {
-  width: 327px;
-  height: 60px;
-  margin-top: 15px;
-  font-family: "Inter", sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  background-color: #ff6b00;
-  font-size: 17px;
-  color: #fff;
+  padding: 10px 15px 0 20px;
 }
 
 .about {
@@ -745,15 +659,14 @@ textarea {
   display: flex;
 }
 
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
   body {
-    box-sizing: border-box;
     width: 100%;
     overflow-x: hidden;
   }
 
-  .container {
-    padding: 0 90px;
+  .navbar-logo {
+    margin-left: 80px;
   }
 
   .navbar-desk {
@@ -768,11 +681,6 @@ textarea {
     height: 100vh;
     background-position: top  right 0;
     background-size: 550px;
-  }
-
-  .content {
-    width: 566px;
-    margin: 140px 130px;
   }
 
   .header-title {
@@ -826,11 +734,8 @@ textarea {
 
   .myresent h2 {
     height: 52px;
-    font-family: "Crete Round", serif;
-    font-style: normal;
     font-weight: 400;
     font-size: 40px;
-    line-height: 52px;
     margin-top: 110px;
   }
 
@@ -841,7 +746,6 @@ textarea {
   .box1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    height: 550px;
   }
 
   .botones4 {
@@ -849,13 +753,13 @@ textarea {
   }
 
   .box1 img {
-    width: 684px;
+    width: calc(100% - 50px);
     height: 448px;
     margin-left: 120px;
   }
 
   .box1 .daily {
-    width: 410px;
+    padding: 0 90px;
     height: 140px;
     font-family: "Inter", sans-serif;
     font-style: normal;
@@ -893,21 +797,18 @@ textarea {
     display: none;
   }
 
-  .texto1 {
-    display: none;
-  }
-
   .contenido {
     display: grid;
-    grid-template-columns: repeat(3, 400px);
+    width: calc(100% - 333px);
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-column-gap: 10px;
     grid-row-gap: 50px;
-    margin: 0;
+    margin-left: 170px;
+    margin-right: 150px;
   }
 
   .multi {
-    grid-column-start: 2;
-    grid-row-start: 1;
+    margin-left: 90px;
     height: 48px;
     font-family: "Crete Round", serif;
     font-style: normal;
@@ -917,7 +818,7 @@ textarea {
   }
 
   .brian1 button {
-    width: 370px;
+    width: 332px;
     height: 60px;
     margin-top: 325px;
     font-family: "Inter", sans-serif;
@@ -933,28 +834,10 @@ textarea {
     display: none;
   }
 
-  .dashbord {
-    margin-top: 130px;
-  }
-
-  .dashbord2 {
-    margin-top: 130px;
-  }
-
   .texto3 {
     width: 337px;
     height: 50px;
-    margin: 0;
-  }
-
-  .botones3 button {
-    width: 95px;
-    height: 40px;
-    margin-top: 30px;
-  }
-
-  .about {
-    background: #1c1a19;
+    margin-top: 50px;
   }
 
   .about-me {
@@ -1031,7 +914,7 @@ textarea {
     display: flex;
     flex-direction: column;
     position: relative;
-    bottom: 300px;
+    bottom: 280px;
     left: 520px;
   }
 
@@ -1039,7 +922,6 @@ textarea {
   input[type="email"] {
     position: relative;
     right: 250px;
-    margin-top: 20px;
     width: 295px;
     color: #979493;
     border-bottom: 1px solid #b1adac;
