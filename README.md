@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Desktop version Personal Portfolio Animation
+# Desktop version Personal Portfolio and deploy to online
 
-> This is a project for Desktop Version portfolio.
+> This is a project for Desktop Version portfolio that deploy on online using github pages.
 
 
 ## Built With
@@ -25,11 +25,6 @@
 - LinkedIn: [LinkedIn](https://linkedin.com/in/abreham1222)
 
 ## 🤝 Contributing
-
- **Roger Smit Castillo**
-GitHub: [@githubhandle](https://github.com/latinogan)
-Twitter: [@twitterhandle]
-LinkedIn: [LinkedIn](https://linkedin.com/in/oger-smith-a35738179)
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
