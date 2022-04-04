@@ -16,26 +16,19 @@ ul {
 
 .contain {
   width: 100%;
-  padding-left: 0;
-  padding-right: 0;
   display: flex;
 }
 
 nav {
-  width: 100%;
   height: 60px;
   background: #3c3a39;
-  display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px;
 }
 
 .navbar-logo {
-  display: flex;
-  padding-left: 20px;
+  padding-left: 24px;
   font-size: 18px;
-  line-height: 24px;
   font-weight: 700;
   font-family: Roboto, sans-serif;
   color: #fff;
@@ -43,17 +36,14 @@ nav {
 }
 
 .navbar-menu {
-  padding-right: 50px;
+  padding-right: 29px;
 }
 
 .navbar-btn ul li {
   font-size: 15px;
   list-style: none;
-  display: inline-block;
   padding: 8px 12px;
-  position: relative;
   color: #fff;
-  text-decoration: none;
 }
 
 .navbar-link a:hover {
@@ -68,7 +58,6 @@ nav {
 
 .header-box {
   background-size: 256px;
-  height: 600px;
   width: 100%;
   background-color: #1c1a19;
   display: flex;
@@ -78,34 +67,27 @@ nav {
 }
 
 .header-content {
-  width: 327px;
-  margin: 122px 22px;
+  width: 100%;
+  padding: 90px 24px;
 }
 
 .header-title {
-  display: flex;
-  width: 327px;
-  font-family: "Crete Round", serif;
-  font-style: normal;
+  margin: 12px 0;
   font-weight: 400;
   font-size: 55px;
-  line-height: 64px;
   color: #ff6b00;
 }
 
 .header-subtitle {
   display: flex;
   font-family: Roboto, sans-serif;
-  font-style: normal;
   font-weight: 700;
   font-size: 24px;
-  line-height: 32px;
   color: #fff5e1;
 }
 
 .header-text-description {
   font-family: Poppins, sans-serif;
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -114,10 +96,7 @@ nav {
 
 .social-media {
   margin-top: 20px;
-  top: 268px;
-  left: 40px;
   display: flex;
-  flex-direction: row;
   list-style: none;
 }
 
@@ -125,27 +104,21 @@ nav {
   padding: 15px;
   display: flex;
   justify-content: center;
-  align-items: flex-start;
-}
-
-.recent-container {
-  display: grid;
-  grid-template-columns: 1fr;
 }
 
 .recent {
   display: none;
 }
 
+.recent-container {
+  width: 100%;
+}
+
 .recent-work {
-  font-family: "Crete Round", serif;
-  font-style: normal;
+  text-align: center;
   font-weight: 400;
   font-size: 40px;
-  line-height: 52px;
-  display: grid;
-  justify-content: center;
-  margin-top: 170px;
+  margin-top: 50px;
 }
 
 .about-hr {
@@ -154,34 +127,22 @@ nav {
 }
 
 .image-p {
-  display: grid;
-  padding: 20px;
   margin: 20px;
 }
 
 .image-placeholder {
-  display: grid;
   width: 100%;
-  height: 400px;
 }
 
 .multi-post {
-  font-family: "Crete Round", serif;
-  font-style: normal;
   font-weight: 400;
   font-size: 32px;
-  line-height: 44px;
-  display: grid;
-  justify-content: start;
   margin-top: 50px;
   color: #091e42;
 }
 
 .recent-detail {
-  display: grid;
-  justify-content: center;
   font-family: "Inter", serif;
-  font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 24px;
@@ -191,8 +152,6 @@ nav {
 
 .course {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
   gap: 12px;
 }
 
@@ -201,16 +160,12 @@ nav {
   padding: 10px;
   font-size: 15px;
   font-family: Inter, sans-serif;
-  line-height: 20px;
   list-style: none;
   box-sizing: border-box;
-  font-style: normal;
   font-weight: 500;
 }
 
 .project {
-  display: flex;
-  padding: 12px;
   width: 124px;
   height: 48px;
   margin-top: 15px;
@@ -220,7 +175,6 @@ nav {
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
-  line-height: 24px;
   border: none;
 }
 
@@ -232,46 +186,28 @@ nav {
 }
 
 .professional {
-  display: grid;
-  width: 98%;
   padding-top: 50px;
-  padding-bottom: 50px;
   background-image: url("Images/skeloton/Img Place.png");
   background-repeat: no-repeat;
-  background-size: 93% 350px;
+  background-size: 95% auto;
   background-position-x: center;
-  margin-left: 10px;
-}
-
-.pro-art {
-  display: grid;
-  width: 98%;
 }
 
 .art-print {
-  display: grid;
-  font-family: "Crete Round", serif;
-  font-style: normal;
-  width: 300px;
   height: 30px;
-  font-weight: 400;
   font-size: 38px;
   line-height: 44px;
   color: #fff;
-  margin-left: 40px;
-  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: auto;
 }
 
 .daily-selection {
-  display: grid;
-  justify-content: center;
-  width: 300px;
+  margin-right: auto;
   height: 60px;
   padding-top: 40px;
-  margin-left: 40px;
+  margin-left: 20px;
   font-family: "Inter", serif;
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   color: #fff;
@@ -280,11 +216,9 @@ nav {
 .pro-tag {
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start;
+  margin-right: auto;
   gap: 12px;
-  padding-top: 40px;
-  margin-left: 40px;
-  height: 10px;
+  margin-left: 20px;
 }
 
 .pro-h {
@@ -294,26 +228,21 @@ nav {
   font-family: "Inter", sans-serif;
   line-height: 20px;
   list-style: none;
-  box-sizing: border-box;
-  font-style: normal;
-  font-weight: 500;
   color: #fff;
   background: rgba(255, 255, 255, 0.24);
 }
 
 .see-proj {
+  display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 65px;
-  align-self: center;
-  width: 93%;
+  margin-top: 32px;
+  width: 95%;
   height: 48px;
   background: #ff6b00;
   font-family: "Inter", serif;
-  font-style: normal;
   font-weight: 700;
   font-size: 17px;
-  line-height: 35px;
   letter-spacing: 0.03em;
   color: #fff;
   border: none;
@@ -324,7 +253,7 @@ nav {
   transition: all 0.2s ease-in-out;
   background: #fff5e1;
   border: 1px solid #f55800;
-  color: #f55800;
+  color: #853c00;
 }
 
 .all-in {
@@ -332,15 +261,6 @@ nav {
 }
 
 .myresent h2 {
-  display: flex;
-  flex-direction: column;
-  height: 80px;
-  font-family: "Crete Round", serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 40px;
-  line-height: 52px;
-  margin-top: 10px;
   margin-left: 110px;
 }
 
@@ -352,76 +272,11 @@ nav {
   border: 1px solid #b1adac;
 }
 
-.card1 {
-  display: grid;
-  row-gap: 30px;
-  justify-content: center;
-  align-items: center;
-  margin-top: 90px;
-}
-
-.contenido {
-  display: grid;
-  row-gap: 30px;
-  justify-content: center;
-  align-items: center;
-  margin-top: 90px;
-}
-
-.box1 {
-  display: grid;
-}
-
-.botones4 {
-  width: 80px;
-}
-
-.botones4 ul {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  font-size: 0;
-  align-items: center;
-  width: 49px;
-  margin-left: 190px;
-}
-
-.botones4 button {
-  background-color: rgba(255, 255, 255, 0.24);
-  color: #091e42;
-  font-family: "Inter", sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 15px;
-  line-height: 20px;
-  margin-left: 8px;
-  height: 49px;
-}
-
-.see:hover {
-  background-color: rgb(34, 189, 228);
-}
-
-.proyect button {
-  width: 124px;
-  height: 48px;
-  font-family: "Inter", sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  background: #ff6b00;
-  color: #fff;
-  margin-top: 20px;
-  align-items: center;
-  margin-left: 90px;
-}
-
 .dashbord2 {
   width: 295px;
   height: 81px;
   padding-top: 50px;
   padding-left: 20px;
-  font-family: "Crete Round", serif;
-  font-style: normal;
   font-weight: normal;
   font-size: 32px;
   line-height: 44px;
@@ -429,25 +284,8 @@ nav {
   margin-top: 130px;
 }
 
-.dashbord1 {
-  width: 295px;
-  height: 81px;
-  padding-top: 50px;
-  padding-left: 20px;
-  font-family: "Crete Round", serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 32px;
-  line-height: 44px;
-  color: #fff;
-}
-
 .texto3 {
-  width: 295px;
-  height: 87px;
   font-family: "Inter", sans-serif;
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   color: #fff;
@@ -456,7 +294,6 @@ nav {
 
 .botones3 button {
   font-family: "Inter", sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
@@ -468,7 +305,6 @@ nav {
 }
 
 .botones3 ul {
-  width: 61px;
   height: 40px;
   list-style: none;
   display: flex;
@@ -481,7 +317,6 @@ nav {
 }
 
 .about-me {
-  width: 94%;
   margin-top: 40px;
   padding-top: 120px;
   padding-bottom: 209px;
@@ -493,17 +328,14 @@ nav {
 }
 
 .about-head {
-  margin-left: 40px;
-  height: 79px;
+  margin: 24px 0;
   font-size: 72px;
-  line-height: 88px;
-  letter-spacing: 0.33px;
   color: #ff6b00;
 }
 
 .btn {
   padding: 12px;
-  margin-left: 40px;
+  margin: 24px 0;
   font-family: "Inter", sans-serif;
   font-weight: bold;
   font-size: 17px;
@@ -523,8 +355,7 @@ nav {
 
 .hello {
   font-family: "Inter", serif;
-  font-style: normal;
-  margin-left: 40px;
+  margin: 24px 0;
   font-weight: 400;
   font-size: 18px;
   line-height: 24px;
@@ -538,7 +369,6 @@ nav {
 
 .technologies {
   list-style: none;
-  width: 100%;
   text-align: center;
 }
 
@@ -559,17 +389,12 @@ nav {
   text-align: center;
   height: 48px;
   font-family: "Inter", serif;
-  font-style: normal;
-  font-weight: 400;
   color: #fff;
 }
 
 .tech-title > h5 {
-  font-family: "InaiMathi", serif;
-  font-style: normal;
   font-weight: 700;
   font-size: 32px;
-  line-height: 44px;
   color: #fff;
 }
 
@@ -584,14 +409,12 @@ form {
 
 .form-detail {
   font-family: "Inter", serif;
-  font-style: normal;
   text-align: center;
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
   margin-left: 45px;
   margin-right: 25px;
-  margin-top: 50px;
   padding-top: 90px;
   color: #172b4d;
 }
@@ -641,10 +464,7 @@ textarea {
 }
 
 .for-li {
-  display: flex;
   border: 1px solid rgb(158, 154, 154);
-  position: relative;
-  top: 1510px;
 }
 
 .icons {
@@ -678,7 +498,7 @@ textarea {
 
   .header-box {
     height: 100vh;
-    background-position: top  right 0;
+    background-position: top  right;
     background-size: 550px;
   }
 
@@ -717,10 +537,9 @@ textarea {
   }
 
   .social-media {
-    top: -280px;
-    left: -150px;
-    position: relative;
     flex-direction: column;
+    margin-right: 150em;
+    margin-top: -300px;
   }
 
   .recent-container {
@@ -738,105 +557,112 @@ textarea {
     margin-top: 110px;
   }
 
-  .card {
-    margin-bottom: 115px;
-  }
-
   .box1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
 
-  .botones4 {
-    display: grid;
-  }
-
-  .box1 img {
-    width: calc(100% - 50px);
+  .boxx-imge {
     height: 448px;
     margin-left: 120px;
+    box-sizing: border-box;
   }
 
-  .box1 .daily {
-    padding: 0 90px;
-    height: 140px;
+  .card {
+    margin-left: 15px;
+    font-weight: 400;
+    font-size: 20px;
+  }
+
+  .daily {
+    padding-left: 10px;
+    padding-right: 150px;
     font-family: "Inter", sans-serif;
-    font-style: normal;
     font-weight: 350;
     font-size: 19px;
     line-height: 26px;
   }
 
+  .botones4 {
+    display: flex;
+    margin-left: 10px;
+    gap: 5px;
+    list-style: none;
+  }
+
+  .botones4 li {
+    border: 1px solid #8d8a89;
+    background-color: rgba(255, 255, 255, 0.24);
+    color: #091e42;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    padding: 0 10px;
+    height: 30px;
+  }
+
+  .proyect button {
+    width: 124px;
+    height: 48px;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    background: #ff6b00;
+    color: #fff;
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+
+  .see:hover {
+    background-color: rgb(34, 189, 228);
+    cursor: pointer;
+  }
+
   .box2 {
-    max-width: 1300px;
-    height: 435px;
     background: url(./Images/imgplaceholder.png);
     background-repeat: no-repeat;
   }
 
   .box3 {
-    height: 435px;
     background: url(./Images/placeholder.png);
     background-repeat: no-repeat;
   }
 
   .box4 {
-    height: 435px;
     background: url(./Images/iplaceholder.png);
     background-repeat: no-repeat;
   }
 
   .box {
-    height: 435px;
     background: url(./Images/dark.png);
     background-repeat: no-repeat;
   }
 
-  .dashbord1 {
-    display: none;
-  }
-
   .contenido {
     display: grid;
-    width: calc(100% - 333px);
+    width: calc(100% - 300px);
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-column-gap: 10px;
     grid-row-gap: 50px;
-    margin-left: 170px;
-    margin-right: 150px;
-  }
-
-  .multi {
-    margin-left: 90px;
-    height: 48px;
-    font-family: "Crete Round", serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 40px;
-    line-height: 52px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .brian1 button {
-    width: 332px;
+    width: 345px;
     height: 60px;
-    margin-top: 325px;
+    margin-top: 375px;
     font-family: "Inter", sans-serif;
-    font-style: normal;
     font-weight: bold;
-    background-color: #ff6b00;
+    background-color: #8a3900;
     font-size: 17px;
     color: #fff;
     border: none;
   }
 
-  .brian button {
-    display: none;
-  }
-
   .texto3 {
     width: 337px;
     height: 50px;
-    margin-top: 50px;
   }
 
   .about-me {
@@ -861,13 +687,16 @@ textarea {
   }
 
   .hello {
-    width: 566px;
-    height: 148px;
-    margin-left: 40px;
-    font-weight: 400;
+    display: flex;
+    padding-right: 600px;
+    padding-left: 40px;
     font-size: 18px;
     line-height: 24px;
     color: #f4f5f7;
+  }
+
+  .btn {
+    margin-left: 40px;
   }
 
   .about-separater {
@@ -893,27 +722,23 @@ textarea {
 
   form {
     display: flex;
-    flex-direction: column;
     width: 100%;
     background-color: #fff;
   }
 
   .form-detail {
-    width: calc(100% - 1070px);
+    padding: 140px 150px;
     height: 256px;
-    position: relative;
-    right: 350px;
-    font-size: 30px;
     line-height: 52px;
     text-align: left;
-    margin: 24px 0;
+    margin-right: 600px;
   }
 
   .ip-type {
     display: flex;
     flex-direction: column;
     position: relative;
-    bottom: 280px;
+    bottom: 450px;
     left: 520px;
   }
 
@@ -940,8 +765,6 @@ textarea {
   }
 
   .butt {
-    position: relative;
-    bottom: 50px;
     display: flex;
     color: red;
     width: 100%;
