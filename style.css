@@ -35,25 +35,90 @@ nav {
   text-decoration: none;
 }
 
-.navbar-menu {
-  padding-right: 29px;
+.contenido {
+  display: none;
 }
 
-.navbar-btn ul li {
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px 20px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: white;
+}
+
+@media (max-width:768px) {
+  .humburger {
+    display: block;
+    cursor: pointer;
+  }
+
+  .humburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .humburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .humburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
+  .navbar-desk {
+    position: fixed;
+    height: 100vh;
+    left: -100%;
+    top: 10px;
+    display: flex;
+    flex-direction: column;
+    background: #3c3a39;
+    text-align: left;
+    transition: 0.3s;
+    color: white;
+    padding-top: 20px;
+    padding-left: 40px;
+  }
+
+  .navbar-desk a {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 44px;
+  }
+
+  .hr-p {
+    display: flex;
+    width: 95%;
+    color: rgb(102, 100, 100);
+    margin-top: -10PX;
+  }
+
+  .text-white {
+    display: none;
+  }
+
+  .navbar-desk.active {
+    width: 100%;
+    left: 0;
+  }
+}
+
+.navbar-desk li {
   font-size: 15px;
-  list-style: none;
   padding: 8px 12px;
+  list-style: none;
+}
+
+.navbar-desk a{
   color: #fff;
+  text-decoration: none;
 }
 
 .navbar-link a:hover {
   opacity: 0.8;
   transition: all 0.3s ease-in-out;
-}
-
-.navbar-desk {
-  display: none;
-  padding-right: 100px;
 }
 
 .header-box {
@@ -273,15 +338,13 @@ nav {
 }
 
 .dashbord2 {
-  width: 295px;
-  height: 81px;
-  padding-top: 50px;
+  padding-top: 10px;
   padding-left: 20px;
+  padding-right: 50px;
   font-weight: normal;
   font-size: 32px;
-  line-height: 44px;
   color: #fff;
-  margin-top: 130px;
+  margin-top: 120px;
 }
 
 .texto3 {
@@ -299,15 +362,14 @@ nav {
   line-height: 20px;
   background-color: rgba(255, 255, 255, 0.24);
   color: #fff;
-  margin-right: 10px;
-  margin-top: 10px;
+  margin-top: 40px;
   border: none;
 }
 
 .botones3 ul {
-  height: 40px;
   list-style: none;
   display: flex;
+  gap: 5px;
   padding: 10px 15px 0 20px;
 }
 
@@ -496,6 +558,10 @@ textarea {
     display: none;
   }
 
+  .humburger {
+    display: none;
+  }
+
   .header-box {
     height: 100vh;
     background-position: top  right;
@@ -527,6 +593,10 @@ textarea {
     margin-top: 0;
     width: 566px;
     margin-left: 80px;
+  }
+
+  .hr-p {
+    display: none;
   }
 
   .header-text-description {
@@ -618,6 +688,17 @@ textarea {
     cursor: pointer;
   }
 
+  .contenido {
+    display: grid;
+    width: calc(100% - 300px);
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-column-gap: 10px;
+    grid-row-gap: 50px;
+    grid-column-gap: 10px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .box2 {
     background: url(./Images/imgplaceholder.png);
     background-repeat: no-repeat;
@@ -638,16 +719,6 @@ textarea {
     background-repeat: no-repeat;
   }
 
-  .contenido {
-    display: grid;
-    width: calc(100% - 300px);
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    grid-column-gap: 10px;
-    grid-row-gap: 50px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
   .brian1 button {
     width: 345px;
     height: 60px;
@@ -658,11 +729,6 @@ textarea {
     font-size: 17px;
     color: #fff;
     border: none;
-  }
-
-  .texto3 {
-    width: 337px;
-    height: 50px;
   }
 
   .about-me {
@@ -728,7 +794,6 @@ textarea {
 
   .form-detail {
     padding: 140px 150px;
-    height: 256px;
     line-height: 52px;
     text-align: left;
     margin-right: 600px;
@@ -766,7 +831,7 @@ textarea {
 
   .butt {
     display: flex;
-    color: red;
+    color: rgb(177, 172, 172);
     width: 100%;
     margin-bottom: 100px;
   }
@@ -777,7 +842,7 @@ textarea {
 
   .icons {
     position: relative;
-    bottom: 150px;
+    bottom: 250px;
     padding-bottom: 10px;
   }
 }
