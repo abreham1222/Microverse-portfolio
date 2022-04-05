@@ -4,29 +4,35 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Abreham Awoke</title>
+    <title>Abreham Awoke portfolio</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    
     <header>
     <nav class="contain">
       <a href="#" class="navbar-logo">John Doe</a>
       <a href="#" class="navbar-btn">
-       <ul class="navbar-desk">
-        <li class="navbar-link">Portfolio</li>
-        <li class="navbar-link">About</li>
-        <li class="navbar-link">Contact</li>
+       <ul class="navbar-desk" id="mix-all">
+        <li class="navbar-link"><a class="nav-lin" href="#porto">Portfolio</a></li>
+        <hr class="hr-p">
+        <li class="navbar-link"><a class="nav-lin" href="#about-menu">About</a></li>
+        <hr  class="hr-p">
+        <li class="navbar-link"><a class="nav-lin" href="#message">Contact</a></li>
+        <hr  class="hr-p">
         <li class="navbar-link"><img src="./Images/Union.png" alt="Email" class="text-white"/></li>
        </ul>
     </a>
-      <a href="#" class="navbar-menu">
-        <img src="Images/Icons/Union.png" alt="Menu"/>
-      </a>
+    <div class="humburger">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </div>
     </nav>
     </header>
     <header class="header-box">
       <section class="header-content">
-        <h2 class="header-title">Hey There. I'm Abreham</h2>
+        <h1 class="header-title">Hey There. I'm Abreham</h1>
         <h2 class="header-subtitle">I’m a Software Developer</h2>
         <p class="header-text-description">
           I can help you build a product , feature or website Look through some of my work and experience! If you like
@@ -35,40 +41,40 @@
         <ul class="social-media">
           <li>
             <a href="#" class="social-media-icon">
-              <img src="Images/Icons/github.png" alt="Github"/>
+              <img src="Images/Icons/github.png" alt="Github icon for check"/>
             </a>
           </li>
           <li>
             <a href="#" class="social-media-icon">
-              <img src="Images/Icons/linked.png" alt="Linkedin"/>
+              <img src="Images/Icons/linked.png" alt="Linkedin icon for check"/>
             </a>
           </li>
           <li>
             <a href="#" class="social-media-icon">
-              <img src="Images/Icons/angel.png" alt="Angel"/>
+              <img src="Images/Icons/angel.png" alt="Angel icon for check"/>
             </a>
           </li>
           <li>
             <a href="#" class="social-media-icon">
-              <img src="Images/Icons/twitter.png" alt="Twitter"/>
+              <img src="Images/Icons/twitter.png" alt="Twitter icon for check"/>
             </a>
           </li>
           <li>
             <a href="#" class="social-media-icon">
-              <img src="Images/Icons/med.png" alt="med"/>
+              <img src="Images/Icons/med.png" alt="medium icon for check"/>
             </a>
           </li>
         </ul>
       </section>
     </header>
     <main>
-      <section class="recent-container">
+      <section class="recent-container" id="porto">
         <div class="work-container">
           <h2 class="recent-work">My Recent Works</h2>
           <hr>
         </div>
         <div class="image-p">
-          <img class="image-placeholder" src="Images/skeloton/placeholder.png" alt="place holder">
+          <img class="image-placeholder" src="Images/skeloton/placeholder.png" alt="gymfit picture with beutifull girl">
           <div class="multi">
            <h2 class="multi-post">Multi-Post Stories</h2>
            <p class="recent-detail">A daily selection of privately personalized reads; no accounts or sign-ups required.
@@ -168,44 +174,32 @@
              <button class="see-proj" type="button">See Project</button>
         </div>
       </section>
-     <div class="all-in">
+     <div class="all-in" id="porto">
       <div class="myresent">
         <h2>My Recent Works</h2>
         <hr class="line-h">
       </div>
 
       <div class="box1">
-        <img src="Images/skeloton/placeholder.png" alt="github icon">
+        <img  class="boxx-imge" src="Images/skeloton/placeholder.png" alt="gymfit picture with beutifull girl">
         <div class="card">
-       
         <h2 class="multi">Multi-Post Stories</h2>
         <p class="daily">A daily selection of privately personalized reads; no accounts or sign-ups required. has been
-            the
-            industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
-        
-            <div class="botones4">
-                <ul>
-                    <li><bUtton type="button" class="c" disabled="disabled">CSS</bUtton></li>
-                    <li> <bUtton type="button" class="h" disabled="disabled">HTML</bUtton></li>
-                    <li> <button type="button" class="b" disabled="disabled">BootStrap</button></li>
-                    <li><button type="button" class="r" disabled="disabled">Ruby</button></li>
-                </ul>        
-            </div>
+            theindustry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
+                <ul class="botones4">
+                    <li>CSS</li>
+                    <li>HTML</li>
+                    <li>BootStrap</li>
+                    <li>Ruby</li>
+                </ul>
             <div class="proyect">
                 <button type="button" class="see">See Project</button>
             </div>
         </div>
+      </div>
     </div>
     <div class="contenido">
         <div class="box2">          
-            <h3 class="dashbord1">Profesional Art Printing Data</h3>
-                <div class="botones3">
-                    <ul>
-                        <li> <bUtton type="button">HTML</bUtton></li>
-                        <li> <button type="button">BootStrap</button></li>
-                        <li> <button type="button" >Ruby</button></li>
-                    </ul>
-                </div>   
                 <div class="brian1">
                     <button type="button" class="see">See Project</button>
                 </div>    
@@ -217,14 +211,11 @@
                 been the industry's standard</p>
                 <div class="botones3">
                     <ul>
-                        <li> <bUtton type="button">HTML</bUtton></li>
+                        <li> <button type="button">HTML</button></li>
                         <li> <button type="button">BootStrap</button></li>
                         <li> <button type="button">Ruby</button></li>
                     </ul>
                 </div>   
-                <div class="brian">
-                    <button type="button" class="see">See Project</button>
-                </div>  
         </div>
         <div class="box4">
             <h3 class="dashbord2">Website Protfolio</h3>
@@ -232,14 +223,11 @@
                 been the industry's standard</p>
                 <div class="botones3">
                     <ul>
-                        <li> <bUtton type="button">HTML</bUtton></li>
+                        <li> <button type="button">HTML</button></li>
                         <li> <button type="button">BootStrap</button></li>
                         <li> <button type="button">Ruby</button></li>
                     </ul>
-                </div>   
-                <div class="brian">
-                    <button type="button" class="see">See Project</button>
-                </div>  
+                </div>
         </div>
         <div class="box">
             <h3 class="dashbord2">Profesional Art Printing Data more</h3>
@@ -247,14 +235,11 @@
                 been the industry's standard</p>
                 <div class="botones3">
                     <ul>
-                        <li> <bUtton type="button">HTML</bUtton></li>
+                        <li> <button type="button">HTML</button></li>
                         <li> <button type="button">BootStrap</button></li>
                         <li> <button type="button">Ruby</button></li>
                     </ul>
-                </div>   
-                <div class="brian">
-                    <button type="button" class="see">See Project</button>
-                </div>  
+                </div>
         </div>
         <div class="box3">
             <h3 class="dashbord2">Data Dashboard Healthcare</h3>
@@ -266,10 +251,7 @@
                         <li> <button type="button">BootStrap</button></li>
                         <li> <button type="button">Ruby</button></li>
                     </ul>
-                </div>   
-                <div class="brian">
-                    <button type="button" class="see">See Project</button>
-                </div>  
+                </div> 
         </div>
         <div class="box4">
             <h3 class="dashbord2">Website Protfolio</h3>
@@ -281,16 +263,12 @@
                         <li> <button type="button">BootStrap</button></li>
                         <li> <button type="button">Ruby</button></li>
                     </ul>
-                </div>   
-                <div class="brian">
-                    <button type="button" class="see">See Project</button>
-                </div>  
+                </div>
         </div>
-        
     </div>
-  </div>
+  
 
-        <section class="about">
+        <section class="about" id="about-menu">
           <div class="about-me">
             <div class="about-soft">
               <h2 class="about-head">About me</h2>
@@ -303,10 +281,9 @@
           </div>
           <hr class="about-separater">
             <div class="tech1">
-             <hr class="for-li"> 
               <ul class="technologies">
                 <li class="tech-title font-inter">
-                  <img src="Images/skeloton/diamond.png" alt="diamond icon"/>
+                  <img src="Images/skeloton/diamond.png" alt="diamond shape bullet"/>
                   <h5 class="text-white">Languages</h5>
                 </li>
                 <li class="tech">Javascript</li>
@@ -316,7 +293,7 @@
               </ul>
               <ul class="technologies">
                 <li class="tech-title">
-                  <img src="Images/skeloton/Rectangle.png" alt="rectangle icon"/>
+                  <img src="Images/skeloton/Rectangle.png" alt="rectangle shape bullet"/>
                   <h5 class="text-white">Frameworks</h5>
                 </li>
                 <li class="tech">Bootstrap</li>
@@ -327,7 +304,7 @@
               </ul>
               <ul class="technologies">
                 <li class="tech-title">
-                  <img src="Images/skeloton/circle.png" alt="circle icon"/>
+                  <img src="Images/skeloton/circle.png" alt="circle shape bullet"/>
                   <h5 class="text-white">Skills</h5>
                 </li>
                 <li class="tech">Codekitt</li>
@@ -338,7 +315,7 @@
               </ul>
             </div>
         </section>
-        <form action="https://formspree.io/f/xlezlkyw" method="post">
+        <form id="message" action="https://formspree.io/f/xlezlkyw" method="post">
            <p class="form-detail">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</p>
            <div class="ip-type">
              <input type="text" placeholder="Full Name" maxlength="30" required>
@@ -347,36 +324,38 @@
            <p>
             <button class="get" type="submit">Get in touch</button>
            </p>
+           <hr class="for-li">
           </div>
           <hr class="butt">
            <ul class="icons">
             <li>
               <a href="#" class="social-media-icons">
-                <img src="Images/ico/git.png" alt="Github"/>
+                <img src="Images/ico/git.png" alt="Github icon for check"/>
               </a>
             </li>
             <li>
               <a href="#" class="social-media-icons">
-                <img src="Images/ico/linked.png" alt="Linkedin"/>
+                <img src="Images/ico/linked.png" alt="Linkedin icon for check"/>
               </a>
             </li>
             <li>
               <a href="#" class="social-media-icons">
-                <img src="Images/ico/ange.png" alt="Angel"/>
+                <img src="Images/ico/ange.png" alt="Angel icon for check"/>
               </a>
             </li>
             <li>
               <a href="#" class="social-media-icons">
-                <img src="Images/ico/twit.png" alt="Twitter"/>
+                <img src="Images/ico/twit.png" alt="Twitter icon for check"/>
               </a>
             </li>
             <li>
               <a href="#" class="social-media-icons">
-                <img src="Images/ico/med.png" alt="med"/>
+                <img src="Images/ico/med.png" alt="medium icon for check"/>
               </a>
             </li>
           </ul>
         </form>
     </main>
+    <script src="script.js"></script>
   </body>
 </html>
