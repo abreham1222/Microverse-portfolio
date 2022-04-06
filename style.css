@@ -92,7 +92,6 @@ nav {
     display: flex;
     width: 95%;
     color: rgb(102, 100, 100);
-    margin-top: -10PX;
     margin-top: -10px;
   }
 
@@ -696,7 +695,6 @@ textarea {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-column-gap: 10px;
     grid-row-gap: 50px;
-    grid-column-gap: 10px;
     margin-left: auto;
     margin-right: auto;
   }
