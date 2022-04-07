@@ -86,7 +86,7 @@ nav {
     font-size: 32px;
     font-weight: 700;
     line-height: 44px;
-    font-family: "Inter";
+    font-family: "Inter", sans-serif;
   }
 
   .hr-p {
@@ -94,7 +94,7 @@ nav {
     width: 95%;
     color: rgb(102, 100, 100);
     margin-top: -5px;
-    margin-left: -5px;
+    margin-left: -8px;
   }
 
   .text-white {
