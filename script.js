@@ -11,11 +11,11 @@ document.querySelectorAll('.nav-lin').forEach((n) => n.addEventListener('click',
   navMenu.classList.remove('active');
 }));
 
-  p = document.querySelector('.modal-mobile'),
-  b = document.querySelector('.project'),
-  c = document.querySelector('.see-proj'),
-  Y = document.querySelector('.xx'),
-  section = document.querySelector('section');
+const p = document.querySelector('.modal-mobile')
+const b = document.querySelector('.project')
+const c = document.querySelector('.see-proj')
+const Y = document.querySelector('.xx')
+section = document.querySelector('section');
 
 function appe() {
   p.style.display = 'block';
