@@ -48,3 +48,21 @@ function appear() {
     parent.style.display = 'block';
     sect.style.filter = 'blur(10px)';
 }
+
+btn.addEventListener('click', appear);
+
+function disappearX() {
+    parent.style.display = 'none';
+    section.style.filter = 'blur(0px)';
+}
+
+X.addEventListener('click', disappearX);
+
+function disappearParent(e) {
+    if (e.target.className == 'modal-p') {
+        parent.style.display = 'none';
+        section.style.filter = 'blur(0px)';
+    }
+}
+
+parent.addEventListener('click', disappearParent);
