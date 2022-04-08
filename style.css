@@ -86,13 +86,15 @@ nav {
     font-size: 32px;
     font-weight: 700;
     line-height: 44px;
+    font-family: "Inter", sans-serif;
   }
 
   .hr-p {
     display: flex;
     width: 95%;
     color: rgb(102, 100, 100);
-    margin-top: -10px;
+    margin-top: -5px;
+    margin-left: -8px;
   }
 
   .text-white {
@@ -692,7 +694,8 @@ textarea {
   .contenido {
     display: grid;
     width: calc(100% - 300px);
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     grid-column-gap: 10px;
     grid-row-gap: 50px;
     margin-left: auto;
