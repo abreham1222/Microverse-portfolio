@@ -68,13 +68,22 @@ function disappearParent(e) {
 parent.addEventListener('click', disappearParent);
 
 const projectDetails = {
-  titleTwo: 'Multi Post Stories',
-  title: 'Keeping track of hundreds  of components website',
-  description_first: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
-  image_slideshow: '/images/snapshoot.png',
-  languages: {
-    language_1: 'html',
-    language_2: 'Bootstrap',
-    language_3: 'Ruby on Rails',
-  },
+    titleTwo: 'Multi Post Stories',
+    title: 'Keeping track of hundreds  of components website',
+    description_first: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
+    image_slideshow: '/images/snapshoot.png',
+    languages: {
+        language_1: 'html',
+        language_2: 'Bootstrap',
+        language_3: 'Ruby on Rails',
+    },
 };
+
+const MainTitle = document.querySelector('.modal-h');
+MainTitle.textContent = projectDetails.title;
+
+const MainLanguage = document.querySelector('.modal-list');
+
+const listMain = [];
+const arrLangMain = [];
+let countMain = 0;
