@@ -106,4 +106,4 @@ const MainDes = document.querySelector('.modal-lorem');
 MainDes.textContent = projectDetails.description_first;
 
 const MainSlideshow = document.querySelector('.img-shoot');
-MainSlideshow.innerHTML = `<img src="${projectDetails.image_slideshow}" alt="">`; 
+MainSlideshow.innerHTML = `<img src="${projectDetails.image_slideshow}" alt="">`;
