@@ -61,7 +61,7 @@ function disappearX() {
 X.addEventListener('click', disappearX);
 
 function disappearParent(e) {
-  if (e.target.className == 'modal-p') {
+  if (e.target.className === 'modal-p') {
     parent.style.display = 'none';
     section.style.filter = 'blur(0px)';
   }
