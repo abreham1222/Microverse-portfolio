@@ -17,14 +17,12 @@ const p = document.querySelector('.modal-mobile'),
   Y = document.querySelector('.xx'),
   section = document.querySelector('section');
 
-
-c.addEventListener('click', appe);
-
 function appe() {
   p.style.display = 'block';
   section.style.filter = 'blur(10px)';
 }
 b.addEventListener('click', appe);
+c.addEventListener('click', appe);
 
 function disappeY() {
   p.style.display = 'none';
@@ -39,4 +37,4 @@ function disappeP(t) {
     section.style.filter = 'blur(0px)';
   }
 }
-p.addEventListener('click', disappeP)
+p.addEventListener('click', disappeP);
