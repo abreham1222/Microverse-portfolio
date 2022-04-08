@@ -11,7 +11,7 @@ document.querySelectorAll('.nav-lin').forEach((n) => n.addEventListener('click',
   navMenu.classList.remove('active');
 }));
 
-const p = document.querySelector('.modal-mobile'),
+  p = document.querySelector('.modal-mobile'),
   b = document.querySelector('.project'),
   c = document.querySelector('.see-proj'),
   Y = document.querySelector('.xx'),
