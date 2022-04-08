@@ -356,7 +356,6 @@ nav {
   line-height: 24px;
   color: #fff;
   padding-left: 20px;
-  
 }
 
 .botones3 button {
@@ -695,7 +694,6 @@ textarea {
   .contenido {
     display: grid;
     width: calc(100% - 300px);
-    /*grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));*/
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-column-gap: 10px;
