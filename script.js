@@ -17,22 +17,21 @@ const p = document.querySelector('.modal-mobile'),
   Y = document.querySelector('.xx'),
   section = document.querySelector('section');
 
-b.addEventListener('click', appe);
+
 c.addEventListener('click', appe);
 
 function appe() {
   p.style.display = 'block';
   section.style.filter = 'blur(10px)';
 }
-
-Y.addEventListener('click', disappeY);
+b.addEventListener('click', appe);
 
 function disappeY() {
   p.style.display = 'none';
   section.style.filter = 'blur(0px)';
 }
 
-parent.addEventListener('click', disappeP)
+Y.addEventListener('click', disappeY);
 
 function disappeP(t) {
   if (t.target.className === 'modal-mobile') {
@@ -40,3 +39,4 @@ function disappeP(t) {
     section.style.filter = 'blur(0px)';
   }
 }
+p.addEventListener('click', disappeP)
