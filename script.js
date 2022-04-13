@@ -11,99 +11,130 @@ document.querySelectorAll('.nav-lin').forEach((n) => n.addEventListener('click',
   navMenu.classList.remove('active');
 }));
 
-const p = document.querySelector('.modal-mobile');
-const b = document.querySelector('.project');
-const c = document.querySelector('.see-proj');
-const Y = document.querySelector('.xx');
-const section = document.querySelector('section');
-
-function appe() {
-  p.style.display = 'block';
-  section.style.filter = 'blur(10px)';
-}
-
-b.addEventListener('click', appe);
-c.addEventListener('click', appe);
-
-function disappeY() {
-  p.style.display = 'none';
-  section.style.filter = 'blur(0px)';
-}
-
-Y.addEventListener('click', disappeY);
-
-function disappeP(t) {
-  if (t.target.className === 'modal-mobile') {
-    p.style.display = 'none';
-    section.style.filter = 'blur(0px)';
-  }
-}
-
-p.addEventListener('click', disappeP);
-
-const parent = document.querySelector('.modal-p');
-const btn = document.querySelector('.see');
-const X = document.querySelector('.x');
-const sect = document.querySelector('section');
-
-function appear() {
-  parent.style.display = 'block';
-  sect.style.filter = 'blur(10px)';
-}
-
-btn.addEventListener('click', appear);
-
-function disappearX() {
-  parent.style.display = 'none';
-  section.style.filter = 'blur(0px)';
-}
-
-X.addEventListener('click', disappearX);
-
-function disappearParent(e) {
-  if (e.target.className === 'modal-p') {
-    parent.style.display = 'none';
-    section.style.filter = 'blur(0px)';
-  }
-}
-
-parent.addEventListener('click', disappearParent);
-
-const projectDetails = {
-  titleTwo: 'Multi Post Stories',
-  title: 'Keeping track of hundreds  of components website',
-  description_first: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
-  image_slideshow: '/images/snapshoot.png',
-  languages: {
-    language_1: 'html',
-    language_2: 'Bootstrap',
-    language_3: 'Ruby on Rails',
+const box1 = document.querySelector('.all-in .contenido');
+const box4 = document.querySelector('.recent-container');
+const projectDetails = [ 
+  {
+  titleOne: 'Keeping track of hundreds  of components website',
+  languages: ['html', 'Bootstrap', 'Ruby on Rails'],
+  imageOne: 'Images/snapshoot.png',
+  descriptionOne: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
+  linklive: 'https://abreham1222.github.io/Microverse-portfolio/',
+  linkSource: 'git clone https://github.com/abreham1222/Microverse-portfolio.git',
   },
-};
+ 
+  {
+    titleTwo: 'Multi Post Stories',
+    languages: ['html', 'Bootstrap', 'Ruby on Rails'],
+    imageTwo: 'Images/shootportfolio.png',
+    descriptionTwo: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type  and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
+    linkLive: 'https://abreham1222.github.io/Microverse-portfolio/',
+    linkSor: 'git clone https://github.com/abreham1222/Microverse-portfolio.git',
+   },
+];
 
-const MainTitle = document.querySelector('.modal-h');
-MainTitle.textContent = projectDetails.title;
+const box2 = document.querySelector('.box1');
+box2.insertAdjacentHTML('afterend', `
+  <div class="modal-p">
+  <div class="modal">
+  <h2 class="modal-h"></h2>
+  <span class="x">&times;</span>
+  <div>
+  <ul class="modal-list">
+    <li class="modal-listed"></li>
+    <li class="modal-listed"></li>
+    <li class="modal-listed"></li>
+  </ul>
+  </div>
+  <div class="img-shoot">
+    <img class="img-desk" src="./Images/snapshoot.png" alt="">
+  </div>
+    <div class="modal-wrap">
+    <p class="modal-lorem"></p>
+    <button type="button" class="see-live">See Live  <img src="Images/pop/iconseelive.png" alt="vector"></button>
+    <button type="button" class="see-source">See Source  <img src="Images/pop/Vector.png" alt="github icon"></button>
+  </div>
+  </div>
+  </div> `);
 
-const MainLanguage = document.querySelector('.modal-list');
+const SeeProjectButton = document.querySelectorAll('.see');
+SeeProjectButton.forEach((item, i) => {
+  item.addEventListener('click', () => {
+    const windowPop = document.querySelector('.modal-p');
+    windowPop.style.display = 'block';
+    const projectDetail = projectDetails[i];
+    const heading = document.querySelector('.modal-h');
+    heading.textContent = projectDetail.titleOne;
+    const paragraph = document.querySelector('.modal-lorem');
+    paragraph.textContent = projectDetail.descriptionOne;
+    const picture = document.querySelector('.img-shoot');
+    picture.src = projectDetail.imageOne;
+    const languag = document.querySelectorAll('.modal-listed');
+    languag.forEach((li, s) => {
+      li.textContent = projectDetail.languages[s];
+    });
+    const live = windowPop.querySelectorAll('.see-live')[0];
+    live.href = projectDetail.linklive;
+    const source = windowPop.querySelectorAll('.see-source')[1];
+    source.href = projectDetail.linkSource;
+  });
+});
 
-const listMain = [];
-const arrLangMain = [];
-let countMain = 0;
+const closeProjectButton = document.querySelector('.x');
+closeProjectButton.addEventListener('click', () => {
+  const windowPop = document.querySelector('.modal-p');
+  windowPop.style.display = 'none';
+});
 
-const keysMain = Object.keys(projectDetails.languages);
-const valuesMain = Object.values(projectDetails.languages);
+const box3 = document.querySelector('.box4');
+box3.insertAdjacentHTML('afterend', `
+  <div class="modal-mobile">
+  <div class="modal-sub">
+  <h3 class="modal-mob"></h3>
+  <span class="xx">&times;</span>
+  <div>
+  <ul class="modal-lists">
+    <li class="modal-liste">l</li>
+    <li class="modal-liste"></li>
+    <li class="modal-liste"></li>
+  </ul>
+  </div>
+  <div class="img-shooted">
+    <img class="img-mob" src="./Images/shootportfolio.png" alt="">
+  </div>
+    <div class="modal-wraped">
+    <p class="modal-lorems"></p>
+    <button type="button" class="see-liv">See Live  <img src="Images/pop/iconseelive.png" alt="vector"></button>
+    <button type="button" class="see-sour">See Source  <img src="Images/pop/Vector.png" alt="github icon"></button>
+  </div>
+  </div>
+  </div>`);
 
-for (let i = 0; i < keysMain.length; i += 1) {
-  listMain[countMain] = document.createElement('li');
-  listMain[countMain].className = 'modal-list';
-  arrLangMain[countMain] = valuesMain[i];
-  listMain[countMain].textContent = arrLangMain[countMain];
-  MainLanguage.appendChild(listMain[countMain]);
-  countMain += 1;
-}
+const SeeProjectB = document.querySelectorAll('.project');
+SeeProjectB.forEach((item, i) => {
+  item.addEventListener('click', () => {
+    const windowPop = document.querySelector('.modal-mobile');
+    windowPop.style.display = 'block';
+    const projectDetail = projectDetails[i];
+    const heading = document.querySelector('.modal-mob');
+    heading.textContent = projectDetail.titleTwo;
+    const paragraph = document.querySelector('.modal-lorems');
+    paragraph.textContent = projectDetail.descriptionTwo;
+    const picture = document.querySelector('.img-mob');
+    picture.src = projectDetail.imageTwo;
+    const languag = document.querySelectorAll('.modal-lists');
+    languag.forEach((li, s) => {
+      li.textContent = projectDetail.languages[s];
+    });
+    const live = windowPop.querySelectorAll('.see-liv')[0];
+    live.href = projectDetail.linkLive;
+    const source = windowPop.querySelectorAll('.see-sour')[1];
+    source.href = projectDetail.linkSor;
+  });
+});
 
-const MainDes = document.querySelector('.modal-lorem');
-MainDes.textContent = projectDetails.description_first;
-
-const MainSlideshow = document.querySelector('.img-shoot');
-MainSlideshow.innerHTML = `<img src="${projectDetails.image_slideshow}" alt="">`;
+const closeProjectB = document.querySelector('.xx');
+closeProjectB.addEventListener('click', () => {
+  const windowPop = document.querySelector('.modal-mobile');
+  windowPop.style.display = 'none';
+});
