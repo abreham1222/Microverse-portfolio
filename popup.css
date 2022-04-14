@@ -6,7 +6,7 @@
     height: 100vh;
     width: 100%;
     display: none;
-  }
+ }
 
   .modal-mobile {
     display: none;
@@ -25,7 +25,7 @@
   }
 
   .modal-h {
-    font-family: "Crete Round", sans-serif;
+    font-family: "Crete Round";
     font-style: normal;
     font-weight: 400;
     font-size: 32px;
@@ -79,13 +79,13 @@
     line-height: 30px;
     color: #344563;
     margin-top: -500px;
-    padding: 40px;
+    padding: 60px;
     margin-left: 400px;
   }
 
   .see-live,
   .see-source {
-    font-family: "Inter", sans-serif;
+    font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
     font-size: 17px;
@@ -93,10 +93,11 @@
     color: #fff;
     background: #f55800;
     padding: 5px 10px;
-    margin-top: 65px;
+    margin-top: 150px;
     cursor: pointer;
     margin-left: 430px;
     margin-right: -400px;
+    text-decoration: none;
   }
 }
 
@@ -123,9 +124,9 @@ section {
     width: 100%;
     overflow: scroll;
     display: none;
-  }
-
-  .modal-p {
+   }
+  
+   .modal-p {
     display: none;
   }
 
@@ -141,7 +142,7 @@ section {
   }
 
   .modal-mob {
-    font-family: "Crete Round", sans-serif;
+    font-family: "Crete Round";
     font-style: normal;
     font-weight: 400;
     font-size: 32px;
@@ -197,7 +198,7 @@ section {
 
   .see-liv,
   .see-sour {
-    font-family: "Inter", sans-serif;
+    font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
     font-size: 17px;
@@ -217,4 +218,8 @@ section {
   100% {
     top: 50%;
   }
+}
+
+section {
+  transition: 2s;
 }
