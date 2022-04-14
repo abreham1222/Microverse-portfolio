@@ -108,10 +108,10 @@ box2.insertAdjacentHTML('afterend', `
   </div>
   </div>
   </div> `);
-  
+
 const SeeProjectB = document.querySelectorAll('.project');
 SeeProjectB.forEach((item, i) => {
-item.addEventListener('click', () => {
+  item.addEventListener('click', () => {
     const windowPop = document.querySelector('.modal-mobile');
     windowPop.style.display = 'none';
     const projectDetail = pros[i];
@@ -123,12 +123,12 @@ item.addEventListener('click', () => {
     picture.src = projectDetail.imageTwo;
     const languag = document.querySelectorAll('.modal-l');
     languag.forEach((li, s) => {
-    li.textContent = projectDetail.languages[s];
-  });
-      const liv = windowPop.querySelector('.see-liv');
-      liv.href = projectDetail.linkLive;
-      const sourc = windowPop.querySelector('.see-sour');
-      sourc.href = projectDetail.linkSor;
+      li.textContent = projectDetail.languages[s];
+    });
+    const liv = windowPop.querySelector('.see-liv');
+    liv.href = projectDetail.linkLive;
+    const sourc = windowPop.querySelector('.see-sour');
+    sourc.href = projectDetail.linkSor;
   });
 });
 
