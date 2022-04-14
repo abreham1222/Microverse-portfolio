@@ -39,7 +39,7 @@ function disappeP(t) {
 
 p.addEventListener('click', disappeP);
 
-const projectDetails = [ 
+const projectDetails = [
   {
     titleOne: 'Keeping track of hundreds  of components website',
     languages: ['html', 'Bootstrap', 'Ruby on Rails'],
@@ -50,7 +50,6 @@ const projectDetails = [
   },
 ];
 
-const box4 = document.querySelector('.recent-container');
 const pros = [
   {
     titleTwo: 'Multi Post Stories',
@@ -61,7 +60,6 @@ const pros = [
     linkSor: 'git clone https://github.com/abreham1222/Microverse-portfolio.git',
   },
 ];
-
 
 const box3 = document.querySelector('.box4');
 box3.insertAdjacentHTML('afterend', `
@@ -86,7 +84,6 @@ box3.insertAdjacentHTML('afterend', `
   </div>
   </div>
   </div>`);
-
 
 const box2 = document.querySelector('.box1');
 box2.insertAdjacentHTML('afterend', `
@@ -114,7 +111,7 @@ box2.insertAdjacentHTML('afterend', `
   
 const SeeProjectB = document.querySelectorAll('.project');
 SeeProjectB.forEach((item, i) => {
-  item.addEventListener('click', () => {
+item.addEventListener('click', () => {
     const windowPop = document.querySelector('.modal-mobile');
     windowPop.style.display = 'none';
     const projectDetail = pros[i];
@@ -128,10 +125,10 @@ SeeProjectB.forEach((item, i) => {
     languag.forEach((li, s) => {
     li.textContent = projectDetail.languages[s];
   });
-    const liv = windowPop.querySelector('.see-liv');
-    liv.href = projectDetail.linkLive;
-    const sourc = windowPop.querySelector('.see-sour');
-    sourc.href = projectDetail.linkSor;
+      const liv = windowPop.querySelector('.see-liv');
+      liv.href = projectDetail.linkLive;
+      const sourc = windowPop.querySelector('.see-sour');
+      sourc.href = projectDetail.linkSor;
   });
 });
 
