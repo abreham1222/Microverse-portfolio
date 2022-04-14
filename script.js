@@ -39,27 +39,26 @@ function disappeP(t) {
 
 p.addEventListener('click', disappeP);
 
-const box1 = document.querySelector('.all-in .contenido');
 const projectDetails = [ 
   {
-  titleOne: 'Keeping track of hundreds  of components website',
-  languages: ['html', 'Bootstrap', 'Ruby on Rails'],
-  imageOne: 'Images/snapshoot.png',
-  descriptionOne: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
-  linklive: 'https://abreham1222.github.io/Microverse-portfolio/',
-  linkSource: 'git clone https://github.com/abreham1222/Microverse-portfolio.git',
+    titleOne: 'Keeping track of hundreds  of components website',
+    languages: ['html', 'Bootstrap', 'Ruby on Rails'],
+    imageOne: 'Images/snapshoot.png',
+    descriptionOne: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
+    linklive: 'https://abreham1222.github.io/Microverse-portfolio/',
+    linkSource: 'git clone https://github.com/abreham1222/Microverse-portfolio.git',
   },
 ];
 
 const box4 = document.querySelector('.recent-container');
 const pros = [
   {
-   titleTwo: 'Multi Post Stories',
-   languages: ['html', 'Bootstrap', 'Ruby on Rails'],
-   imageTwo: 'Images/shootportfolio.png',
-   descriptionTwo: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type  and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
-   linkLive: 'https://abreham1222.github.io/Microverse-portfolio/',
-   linkSor: 'git clone https://github.com/abreham1222/Microverse-portfolio.git',
+    titleTwo: 'Multi Post Stories',
+    languages: ['html', 'Bootstrap', 'Ruby on Rails'],
+    imageTwo: 'Images/shootportfolio.png',
+    descriptionTwo: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type  and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
+    linkLive: 'https://abreham1222.github.io/Microverse-portfolio/',
+    linkSor: 'git clone https://github.com/abreham1222/Microverse-portfolio.git',
   },
 ];
 
