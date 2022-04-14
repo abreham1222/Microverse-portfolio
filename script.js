@@ -12,29 +12,28 @@ document.querySelectorAll('.nav-lin').forEach((n) => n.addEventListener('click',
 }));
 
 const p = document.querySelector('.modal-mobile');
-const  b = document.querySelector('.project');
-const  c = document.querySelector('.see-proj');
-const  Y = document.querySelector('.xx');
+const b = document.querySelector('.project');
+const c = document.querySelector('.see-proj');
+const Y = document.querySelector('.xx');
 const section = document.querySelector('section');
 
 function appe() {
   p.style.display = 'block';
-  section.style.filter = 'blur(10px)'
-  }
+  section.style.filter = 'blur(10px)';
+}
 b.addEventListener('click', appe);
 c.addEventListener('click', appe);
 
 function disappeY() {
   p.style.display = 'none';
-  section.style.filter = "blur(0px)"
-  }
-  Y.addEventListener('click', disappeY);
-
+  section.style.filter = 'blur(0px)';
+}
+Y.addEventListener('click', disappeY);
 
 function disappeP(t) {
-  if (t.target.className == 'modal-mobile') {
+  if (t.target.className === 'modal-mobile') {
     p.style.display = 'none';
-    section.style.filter = 'blur(0px)'
+    section.style.filter = 'blur(0px)';
   }
 }
 
@@ -49,10 +48,11 @@ const projectDetails = [
   descriptionOne: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
   linklive: 'https://abreham1222.github.io/Microverse-portfolio/',
   linkSource: 'git clone https://github.com/abreham1222/Microverse-portfolio.git',
-  },];
+  },
+];
 
 const box4 = document.querySelector('.recent-container');
- const pros = [
+const pros = [
   {
    titleTwo: 'Multi Post Stories',
    languages: ['html', 'Bootstrap', 'Ruby on Rails'],
@@ -116,24 +116,24 @@ box2.insertAdjacentHTML('afterend', `
 const SeeProjectB = document.querySelectorAll('.project');
 SeeProjectB.forEach((item, i) => {
   item.addEventListener('click', () => {
-  const windowPop = document.querySelector('.modal-mobile');
-  windowPop.style.display = 'none';
-  const projectDetail = pros[i];
-  const heading = document.querySelector('.modal-mob');
-  heading.textContent = projectDetail.titleTwo;
-  const paragraph = document.querySelector('.modal-lorems');
-  paragraph.textContent = projectDetail.descriptionTwo;
-  const picture = document.querySelector('.img-mob');
-  picture.src = projectDetail.imageTwo;
-  const languag = document.querySelectorAll('.modal-l');
-  languag.forEach((li, s) => {
+    const windowPop = document.querySelector('.modal-mobile');
+    windowPop.style.display = 'none';
+    const projectDetail = pros[i];
+    const heading = document.querySelector('.modal-mob');
+    heading.textContent = projectDetail.titleTwo;
+    const paragraph = document.querySelector('.modal-lorems');
+    paragraph.textContent = projectDetail.descriptionTwo;
+    const picture = document.querySelector('.img-mob');
+    picture.src = projectDetail.imageTwo;
+    const languag = document.querySelectorAll('.modal-l');
+    languag.forEach((li, s) => {
     li.textContent = projectDetail.languages[s];
   });
-  const liv = windowPop.querySelector('.see-liv');
-      liv.href = projectDetail.linkLive;
-      const sourc = windowPop.querySelector('.see-sour');
-      sourc.href = projectDetail.linkSor;
-    });
+    const liv = windowPop.querySelector('.see-liv');
+    liv.href = projectDetail.linkLive;
+    const sourc = windowPop.querySelector('.see-sour');
+    sourc.href = projectDetail.linkSor;
+  });
 });
 
 const SeeProjectButton = document.querySelectorAll('.see');
