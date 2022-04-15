@@ -9,6 +9,7 @@
 
 - HTML 5
 - CSS 3
+- JAVASCRIPT
 
 # Live Demo Link
 
@@ -20,7 +21,7 @@
 **Just clone the project by runing the `git clone https://github.com/abreham1222/Microverse-portfolio.git` command in your command line, and you are done.**
 
 
-## Authors
+## Author
 
 👤 **Abreham Awoke**
 
