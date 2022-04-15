@@ -84,9 +84,10 @@
             <li class="list">bootstrap</li>
             <li class="list">Ruby</li>
            </ul>
-           <button class="project" type="button">See Project</button>
+           <button class="project" id="project" type="button">See Project</button>
           </div>
         </div>
+
         <div class="professional">
           <div class="pro-art">
            <h2 class="art-print">Profesional Art Printing Data</h2> 
@@ -170,8 +171,9 @@
             <li class="pro-h">Ruby</li>
           </ul>
              <button class="see-proj" type="button">See Project</button>
-        </div>
+        </div>   
       </section>
+
      <div class="all-in">
      <div class="all-in porto">
       <div class="myresent">
@@ -196,11 +198,9 @@
             </div>
         </div>
       </div>
-
+     </div>
     </div>
-
-    </div>
-    <div class="contenido">
+     <div class="contenido">
         <div class="box2">          
                 <div class="brian1">
                     <button type="button" class="see">See Project</button>
@@ -267,33 +267,9 @@
                     </ul>
                 </div>
         </div>
-    </div>
+     </div>
 
-    
-    <div class="modal-p">
-      <div class="modal">
-        <h2 class="modal-h"></h2>
-        <span class="x">&times;</span>
-        <div>
-        <ul class="modal-list">
-          <li class="modal-listed"></li>
-          <li class="modal-listed"></li>
-          <li class="modal-listed"></li>
-        </ul>
-      </div>
-        <div class="img-shoot">
-          <img class="img-mob" src="Images/shootportfolio.png" alt="">
-        </div>
-          <div class="modal-wrap">
-          <p class="modal-lorem"></p>
-          <button type="button" class="see-live">See Live  <img src="Images/pop/iconseelive.png" alt="vector"></button>
-          <button type="button" class="see-source">See Source  <img src="Images/pop/Vector.png" alt="github icon"></button>
-        </div>
-      </div>
-    </div>
-
-
-    <div class="modal-mobile">
+     <div class="modal-mobile">
       <div class="modal-sub">
         <h3 class="modal-mob">Multi Post Stories</h3>
         <span class="xx">&times;</span>
@@ -305,7 +281,7 @@
         </ul>
       </div>
         <div class="img-shooted">
-          <img class="img-mob" src="Images/shootportfolio.png" alt="">
+          <img class="img-mob" src="Images/shootportfolio.png" alt="portfolio">
         </div>
           <div class="modal-wraped">
           <p class="modal-lorems">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,
@@ -316,7 +292,6 @@
       </div>
     </div>
   
-
         <section class="about" id="about-menu">
           <div class="about-me">
             <div class="about-soft">
@@ -368,7 +343,7 @@
            <p class="form-detail">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</p>
            <div class="ip-type">
              <input type="text" placeholder="Full Name" maxlength="30" required>
-             <input type="email" placeholder="Email address" required>
+             <input id="user-email" type="email" placeholder="Email address" required>
              <textarea name="msgt1" id="t1" cols="30" rows="10" maxlength="500" placeholder="Enter text here" required></textarea>
            <p>
             <button class="get" type="submit">Get in touch</button>
@@ -405,6 +380,6 @@
           </ul>
         </form>
     </main>
-    <script src="script.js"></script>
+    <script type="module" src="script.js"></script>
   </body>
 </html>
