@@ -858,4 +858,10 @@ textarea {
     bottom: 250px;
     padding-bottom: 10px;
   }
+
+  #validator-message {
+    color: red;
+    margin-top: 20px;
+    margin-right: 50px;
+  }
 }
