@@ -861,7 +861,7 @@ textarea {
 
   #validator-message {
     color: red;
-    margin-top: 20px;
-    margin-right: 50px;
+    padding-right: 250px;
+    margin-left: -300px;
   }
 }
