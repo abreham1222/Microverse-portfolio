@@ -1,0 +1,225 @@
+@media screen  and (min-width: 768px) {
+  .modal-p {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 90vh;
+    width: 100%;
+    display: none;
+  }
+
+  .modal-mobile {
+    display: none;
+  }
+
+  .modal {
+    width: 85%;
+    padding: 30px;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: 0.5s drop;
+    background-color: white;
+    border: 1px solid #757373;
+  }
+
+  .modal-h {
+    font-family: "Crete Round", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+    color: #172b4d;
+  }
+
+  .x {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 40px;
+    cursor: pointer;
+  }
+
+  .modal-list {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #3c3a39;
+    align-items: center;
+  }
+
+  .modal-list li {
+    border: 1px solid rgb(194, 188, 188);
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  .img-shoot {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-top: 20px;
+    height: 500px;
+  }
+
+  .modal-wrap {
+    margin-left: 250px;
+    font-family: "Inter", serif;
+    font-style: normal;
+  }
+
+  .modal-lorem {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #344563;
+    margin-top: -600px;
+    padding: 100px 60px;
+    margin-left: 370px;
+  }
+
+  .see-live,
+  .see-source {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+    color: #fff;
+    background: #f55800;
+    padding: 5px 10px;
+    margin-top: 150px;
+    cursor: pointer;
+    margin-left: 430px;
+    margin-right: -400px;
+    text-decoration: none;
+  }
+}
+
+@keyframes drop {
+  0% {
+    top: -100px;
+  }
+
+  100% {
+    top: 50%;
+  }
+}
+
+section {
+  transition: 2s;
+}
+
+@media screen  and (max-width: 768px) {
+  .modal-mobile {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 98vh;
+    width: 100%;
+    overflow: scroll;
+    display: none;
+    backdrop-filter: blur(90px);
+  }
+
+  .modal-p {
+    display: none;
+  }
+
+  .modal-sub {
+    width: 83%;
+    padding: 10px;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+    animation: 0.5s drop;
+    background-color: white;
+    border: 1px solid #757373;
+  }
+
+  .modal-mob {
+    font-family: "Crete Round", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+    color: #172b4d;
+    margin-top: -10px;
+  }
+
+  .xx {
+    position: absolute;
+    top: 5px;
+    right: 20px;
+    font-size: 40px;
+    cursor: pointer;
+  }
+
+  .modal-lists {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #3c3a39;
+    align-items: center;
+    margin-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .modal-lists li {
+    border: 1px solid rgb(194, 188, 188);
+    padding: 10px;
+  }
+
+  .img-shooted {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .modal-wraped {
+    font-family: "Inter", serif;
+    font-style: normal;
+  }
+
+  .modal-lorems {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #344563;
+  }
+
+  .see-liv,
+  .see-sour {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+    color: #fff;
+    background: #f55800;
+    padding: 5px 20px;
+    cursor: pointer;
+  }
+}
+
+@keyframes drop {
+  0% {
+    top: -100px;
+  }
+
+  100% {
+    top: 50%;
+  }
+}
